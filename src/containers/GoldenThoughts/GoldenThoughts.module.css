@@ -1,0 +1,19 @@
+
+.GoldenThoughts {
+    margin-top: 4px;
+    padding-left: 4px;
+}
+
+.Background {
+    background-image: url("../../assets/backgrounds/goldenB.jpeg");
+    background-size: cover;
+}
+
+.LoggedOut {
+    text-align: center;
+}
+
+/* .Background:hover {
+    background: rgb(196, 116, 69);
+    background: linear-gradient(135deg, rgba(107, 47, 18, 0.8) 27%, rgba(163, 93, 93, 0.8) 73%, rgba(107, 47, 18, 0.8) 100%);
+} */

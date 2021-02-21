@@ -1,0 +1,48 @@
+
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(58, 57, 57);
+    padding: 1pc;
+    padding-top: 0.8pc;
+    margin-left: 10%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.7s ease-out;
+    border-radius: 4px;
+    text-align: center;
+    top:0;
+}
+
+.Hide {
+    transition: all 0.7s ease-out;
+    transform: translateY(-150vh);
+    opacity: 0;
+}
+
+.Show {
+    transform: translateY(10vh);
+    opacity: 1;
+}
+
+@media (max-width: 700px) {
+    .Modal {
+        width: 99%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        margin: 0;
+        margin-top: 100px; 
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0px;       
+    }
+  
+    .Show {
+        transform: translateY(0vh);
+        opacity: 1;
+    }
+}

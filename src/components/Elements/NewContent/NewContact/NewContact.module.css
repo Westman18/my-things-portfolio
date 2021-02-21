@@ -1,0 +1,30 @@
+.NewContact {
+    margin: 0px 0px;
+   
+    text-align: center;
+    width: 100%;
+    
+}
+
+.NewContact form {
+    text-align: center;
+}
+
+.NewContact h4 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.FormTop {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 650px) {
+    .FormTop{
+        flex-flow: column;
+    }
+}
+

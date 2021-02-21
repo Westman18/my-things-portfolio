@@ -1,0 +1,20 @@
+.Dairy {
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.Background {
+    background: rgb(150, 165, 255);
+    background: linear-gradient(128deg, rgba(150, 165, 255, 1) 11%, rgba(184, 198, 234, 1) 75%, rgba(173, 185, 253, 1) 100%);
+    /* background-size: cover; */
+    transition: scale 1s ease-out;
+}
+
+.LoggedOut {
+    text-align: center;
+}
+
+/* .Background:hover {
+    background: rgb(196, 116, 69);
+    background: linear-gradient(135deg, rgba(107, 47, 18, 0.8) 27%, rgba(163, 93, 93, 0.8) 73%, rgba(107, 47, 18, 0.8) 100%);
+} */

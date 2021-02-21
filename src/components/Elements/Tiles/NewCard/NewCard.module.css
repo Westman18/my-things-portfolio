@@ -1,0 +1,103 @@
+.NewCard {
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.NewCard:hover {
+    cursor: pointer;
+}
+
+.NewCard h1 {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-weight: 50;
+}
+
+.NewCard h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10;
+    font-weight: 200;
+}
+
+.NewCard p {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.NewCard {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position: relative;
+    float: left;
+    flex-flow: column;
+    align-items: left;
+    /* height: 150px; */
+    width: 16.65%;
+    transition: all 0.7s ease-out;
+}
+
+@media (max-width:1300px) {
+    .NewCard {
+        width: 20%;
+    }
+}
+
+@media (max-width:1050px) {
+    .NewCard {
+        width: 25%;
+    }
+}
+
+@media (max-width:950px) {
+    .NewCard {
+        width: 33.33%;
+    }
+}
+
+@media (max-width:700px) {
+    .NewCard {
+        width: 50%;
+    }
+}
+
+@media (max-width:350px) {
+    .NewCard {
+        width: 100%;
+    }
+}
+
+/* @media (max-width:320px) {
+    .NewCard {
+        width: 100%;
+    }
+} */
+
+.Content {
+    height: 0;
+    padding: 5px 10px;
+    padding-bottom: 61.8%;
+    margin: 0;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border-style: solid rgb(100, 100, 100);
+    border-width: 1px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    background: rgb(150,165,255);
+background: linear-gradient(128deg, rgba(150,165,255,1) 11%, rgba(184,198,234,1) 75%, rgba(173,185,253,1) 100%);
+    opacity: 0.7;
+    /* background-image: url("../../../assets/backgrounds/diaryB.png");
+    background-size: cover;  */
+    transition: transform 0.2s ease;
+}
+
+.Content:hover {
+    transform: scale(1.02);
+}

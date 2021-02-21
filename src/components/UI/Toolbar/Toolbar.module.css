@@ -1,0 +1,50 @@
+
+
+.Toolbar {
+    height: 44px;
+    position: fixed;
+    /* no interference with other els */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 100;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: gray;
+    color: black;
+    /* border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px; */
+    box-shadow: 0px 2px 2px gray;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0px;
+    margin-bottom: 0px;
+    /* border-radius: 0px 0px 2px 2spx; */
+    /* margin-right: 4px; */
+    width: 100%;
+    border-top: 0px;
+        overflow: auto;
+
+    margin-left: 0;
+}
+
+
+
+.Warm{
+    background-image: url(../../../assets/backgrounds/warmBg.jpg);
+
+}
+
+.Cold{
+    background-image: url(../../../assets/backgrounds/mainBg.jpg);
+
+}
+
+.LinkButt {
+    padding-bottom: -2px;
+}

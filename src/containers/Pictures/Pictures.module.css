@@ -1,0 +1,25 @@
+.Pictures {
+    
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+
+.Background {
+
+    background: rgb(209, 218, 224);
+    background: linear-gradient(130deg, rgb(207, 207, 207) 36%, rgb(248, 248, 248) 70%,rgb(207, 207, 207) 100%);
+    border: 1px black;
+
+
+    
+}
+
+.LoggedOut {
+    text-align: center;
+}
+
+/* .Background:hover {
+    background: rgb(196, 116, 69);
+    background: linear-gradient(135deg, rgba(107, 47, 18, 0.8) 27%, rgba(163, 93, 93, 0.8) 73%, rgba(107, 47, 18, 0.8) 100%);
+} */

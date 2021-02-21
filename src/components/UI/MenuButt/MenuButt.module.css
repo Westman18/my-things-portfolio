@@ -1,0 +1,48 @@
+.MenuButt {
+    box-sizing: border-box;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    box-shadow: none;
+    padding: 4px 8px;
+    height: 100%;
+    text-align: center;
+    font-family: inherit;
+    margin-right: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.MenuButt:disabled {
+    color: gray;
+    cursor: auto;
+}
+
+.MenuButt:hover, .MenuButt:active, .MenuButt.active {
+    color: #7c7c7c;
+    background-color: rgba(48, 108, 143, 0.1);
+}
+
+.Blink {
+    animation: blinker 5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    30%{
+        text-shadow: 0 0 20px rgb(0, 238, 255);
+    }
+    
+    
+    80% {
+        opacity: 1;
+        text-shadow: 0 0 20px rgb(0, 238, 255);
+        
+    }
+    
+    90% {
+      opacity: 0.2;
+      
+    }
+  }

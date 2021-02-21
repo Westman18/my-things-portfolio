@@ -1,0 +1,29 @@
+.NewPicture {
+    margin: 0px 0px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.NewPicture form {
+    text-align: center;
+}
+
+.NewPicture h4 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.FormTop {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 650px) {
+    .FormTop{
+        flex-flow: column;
+    }
+}
+

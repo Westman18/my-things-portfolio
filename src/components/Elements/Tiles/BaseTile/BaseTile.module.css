@@ -1,0 +1,97 @@
+.BaseTile {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position: relative;
+    float: left;
+    flex-flow: column;
+    align-items: left;
+    /* height: 150px; */
+    width: 12.5%;
+    transition: all 0.7s ease-out;
+}
+
+@media (max-width:1300px) {
+    .BaseTile {
+        width: 14.28%;
+    }
+}
+
+@media (max-width:1200px) {
+    .BaseTile {
+        width: 16.65%;
+    }
+}
+
+@media (max-width:1050px) {
+    .BaseTile {
+        width: 20%;
+    }
+}
+
+@media (max-width:950px) {
+    .BaseTile {
+        width: 25%;
+    }
+}
+
+@media (max-width:775px) {
+    .BaseTile {
+        width: 33.33%;
+    }
+}
+
+@media (max-width:520px) {
+    .BaseTile {
+        width: 50%;
+    }
+}
+
+@media (max-width:320px) {
+    .BaseTile {
+        width: 100%;
+    }
+}
+
+.Content {
+    height: 0;
+    padding: 3px 11px;
+    padding-bottom: 100%;
+    margin: 0;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border:none;
+    box-shadow: 2px 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.Content h5 {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.Content h3 {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+.Content p {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.Content:hover {
+    transform: scale(1.02);
+}

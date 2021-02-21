@@ -1,0 +1,28 @@
+.MenuButton {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+    border: 0px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Strap {
+    width: 29px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(83, 83, 83);
+    margin: 6px 0;
+}
+
+.MenuButton:disabled {
+    color: gray;
+    cursor: auto;
+}
+
+.MenuButton:hover, .MenuButton:active, .MenuButton.active {
+    color: #7c7c7c;
+    background-color: rgba(48, 108, 143, 0.1);
+}

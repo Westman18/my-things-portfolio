@@ -1,0 +1,16 @@
+.NavItem {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 2px 0px;
+    padding-left: 27px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+    
+.NavItem :hover, .NavigationItem li:active, .NavigationItem li.active {
+    color: #7c7c7c;
+    background-color: rgba(48, 108, 143, 0.1);
+}

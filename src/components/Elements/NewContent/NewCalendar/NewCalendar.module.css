@@ -1,0 +1,30 @@
+.NewCalendar {
+    margin: 0px 0px;
+   
+    text-align: center;
+    width: 100%;
+    
+}
+
+.NewCalendar form {
+    text-align: center;
+}
+
+.NewCalendar h4 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.FormTop {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 500px) {
+    .FormTop{
+        flex-flow: column;
+    }
+}
+

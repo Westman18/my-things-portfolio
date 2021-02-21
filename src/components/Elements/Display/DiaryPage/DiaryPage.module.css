@@ -1,0 +1,49 @@
+.DiaryPage{
+    /* padding: 0px 20px; */
+    text-align: center;
+}
+
+
+
+.Line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Line h5 {
+    font-size: 16px;
+    text-align: left;
+    margin: 7px 5px;
+}
+
+.Field {
+    display: flex;
+    box-sizing: border-box;
+    width: 49%;
+    margin-top: 10px;
+    padding-left:10px ;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 2px;
+}
+
+.TextField{
+    display: flex;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    padding-right: 8px;
+    padding-left: 2px;
+    margin-top: 10px;
+    padding-left:10px ;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 2px;
+}
+
+.TextField p {
+margin: 3px;
+margin-top: 8px;
+margin-bottom: 8px;
+}

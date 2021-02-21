@@ -1,0 +1,80 @@
+.CalendarStrap {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position: relative;
+    float: left;
+    flex-flow: column;
+    align-items: left;
+    /* height: 150px; */
+    width: 100%;
+    transition: all 0.7s ease-out;
+   
+}
+
+.Content {
+   
+    background-image: url("../../../../assets/backgrounds/calendarB.jpg");
+    background-size: cover;
+    height: 0;
+    padding: 0px 8px;
+    height: 90px;
+
+    margin: 0;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: 2px 2px 3px rgb(64, 87, 100);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.Content:hover {
+    transform: scale(1.005);
+}
+
+.Line {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Field {
+    display: flex; 
+    width: 100%;
+    max-width: 150px; 
+    /* justify-content: 'right'; */
+    flex-flow: row;
+
+}
+
+.CalendarStrap h4 {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.CalendarStrap h3 {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+
+    font-size: 16px;
+}
+
+.CalendarStrap p {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+.FrontPage {
+    text-align: center;
+    z-index: 100;
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+/* .FrontPage */
+
+.Head {
+    font-size: 80px;
+    margin: 5px;
+    text-shadow: 0px 0px 5px gray;
+    transition: all 0.7s ease-out;
+}
+
+.HeadShow {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.HeadHide {
+    transform: translateX(8%);
+    opacity: 0;
+}
+
+.UnderHead {
+    font-size: 25px;
+    margin: 0;
+    padding-left: 200px;
+    transition: all 0.7s ease-out;
+    text-shadow: 0px 0px 5px gray;
+
+
+}
+
+.UnderHeadShow {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.UnderHeadHide {
+    transform: translateX(-15%);
+    opacity: 0;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Antic Slab', serif;
+    /* font-weight: bold; */
+    font-size: x-large;
+    margin-top: 100px;
+    transition: all 0.7s ease-out;
+
+}
+
+.ButtonShow {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.ButtonHide {
+    transform: translateY(-80px);
+    opacity: 0;
+}
+
+ @media (max-width:700px) {
+
+    .UnderHead {
+        /* font-size: 25px;
+        margin: 0; */
+        padding-left: 0;
+        /* transition: all 0.7s ease-out; */
+    
+    }
+
+    .HeadHide {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    .UnderHeadHide {
+        transform: translateX(0);
+        opacity: 0;
+    }
+
+ }
+
+/* @keyframes {
+    .
+} */

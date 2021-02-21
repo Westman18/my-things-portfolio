@@ -1,0 +1,68 @@
+.SetProfilePage {
+    margin: 0px 0px;
+   
+    text-align: center;
+    width: 100%;
+    
+}
+
+.SetProfilePage form {
+    text-align: center;
+}
+
+.SetProfilePage h4 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.FormTop {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 650px) {
+    .FormTop{
+        flex-flow: column;
+    }
+}
+
+.Field {
+    padding:0;
+    box-sizing: border-box;
+    width: 49%;
+    display: inline;
+    text-align: left;
+    padding-left:0px ;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 11px;
+}
+
+
+.Area {
+    padding:0;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding-left:0px ;
+    min-height: 29px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 4px;
+}
+
+.Area p {
+    margin: 5px;
+    margin-left: 7px;
+    font-weight: normal;
+}
+
+.Line {
+    display: flex;
+    flex-flow: row;
+    margin: 5px 7%;
+    justify-content: space-between;
+    font-weight: normal;
+}
+

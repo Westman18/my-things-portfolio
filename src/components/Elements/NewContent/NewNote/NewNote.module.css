@@ -1,0 +1,27 @@
+.NewNote {
+    margin: 0px 0px;
+    text-align: center;
+    width: 100%; 
+}
+
+.NewNote h4 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.NewNote form {
+    text-align: center;
+}
+
+.FormTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 650px) {
+    .FormTop{
+        flex-flow: column;
+    }
+}
+

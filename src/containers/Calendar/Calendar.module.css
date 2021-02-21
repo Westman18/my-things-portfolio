@@ -1,0 +1,67 @@
+.Calendar {
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.Background {
+    background-image: url("../../assets/backgrounds/calendarB.jpg");
+    background-size: cover;
+}
+
+.LoggedOut {
+    text-align: center;
+    position: relative;
+    display: inline;
+    margin-top: 20px;
+    box-sizing: content-box;
+}
+
+.LoggedOut h4 {
+    padding-top: 0px;
+}
+
+/* .Background:hover {
+    background: rgb(196, 116, 69);
+    background: linear-gradient(135deg, rgba(107, 47, 18, 0.8) 27%, rgba(163, 93, 93, 0.8) 73%, rgba(107, 47, 18, 0.8) 100%);
+} */
+
+.Divider {
+    text-align: center;
+    
+    vertical-align: middle;
+    height: 30px;
+
+    margin: 0;
+    margin-bottom: 4px;
+    margin-right: 4px;
+
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    float: left;
+    flex-flow: row;
+   
+    /* height: 150px; */
+    width: 100%;
+    transition: all 0.7s ease-out;
+}
+
+
+/* .Divider:hover {
+    cursor: pointer;
+} */
+
+.Divider h5 {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 5px;
+   
+}
+
+.Divider hr {
+
+height: 1px;
+background-color: gray;
+margin-top: 14px;
+    width: 30%;
+}
